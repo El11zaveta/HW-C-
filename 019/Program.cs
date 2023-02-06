@@ -10,7 +10,7 @@ else
 {
     int b = num / 1000, e = num % 100;
     if ((b / 10 == e % 10) && (b % 10 % 10 == e / 10))
-        Console.WriteLine("Да, оно является палиндромом ");
+        Console.WriteLine("Да, является ");
     else
         Console.WriteLine("Нет, не является ");
 }
