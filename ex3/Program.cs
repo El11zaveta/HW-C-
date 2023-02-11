@@ -11,5 +11,6 @@ while (a < n)
     {
         Console.Write($"{cub}");
     }
-    a++;
-}
+} 
+a++;
+Console.WriteLine($"{cub}");
