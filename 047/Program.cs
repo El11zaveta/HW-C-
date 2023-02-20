@@ -5,7 +5,7 @@ double[,] GetArray(int m, int n, double minValue, double maxValue)
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
-            result[i,j] = Math.Round(new Random().NextDouble() * (maxValue - minValue) + minValue, 2);
+            result[i, j] = Math.Round(new Random().NextDouble() * (maxValue - minValue) + minValue, 2);
     }
     return result;
 }
